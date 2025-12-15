@@ -11,7 +11,18 @@
 
 KrishiBarosa is a revolutionary blockchain-based platform that combines AI-powered fraud detection with immutable supply chain tracking. From farm to consumer, every step is verified, authenticated, and transparently recorded on the blockchain.
 
-> 💙 **Love this extension?** [Support the developer](https://buymeacoffee.com/kushal.raj.gs) ☕
+## ☕ Support the Developer
+
+If you love this extension and find it useful in your daily coding workflow, consider supporting its development!
+
+[![Buy Me A Coffee](https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png)](https://buymeacoffee.com/kushal.raj.gs)
+
+Your support helps me:
+- 🚀 Continue developing new features
+- 🐛 Fix bugs and improve performance  
+- 📱 Add support for more platforms
+- 🎵 Enhance the music experience for developers
+ 
 ---
 
 ## 📑 Table of Contents
