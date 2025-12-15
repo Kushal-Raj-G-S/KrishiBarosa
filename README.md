@@ -11,18 +11,19 @@
 
 KrishiBarosa is a revolutionary blockchain-based platform that combines AI-powered fraud detection with immutable supply chain tracking. From farm to consumer, every step is verified, authenticated, and transparently recorded on the blockchain.
 
-## ☕ Support the Developer
+## ☕ Support the Project
 
-If you love this extension and find it useful in your daily coding workflow, consider supporting its development!
+If you find KrishiBarosa valuable for agricultural supply chain transparency and want to support its development:
 
 [![Buy Me A Coffee](https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png)](https://buymeacoffee.com/kushal.raj.gs)
 
-Your support helps me:
-- 🚀 Continue developing new features
-- 🐛 Fix bugs and improve performance  
-- 📱 Add support for more platforms
-- 🎵 Enhance the music experience for developers
- 
+Your support helps us:
+- 🌾 Empower more farmers with blockchain technology
+- 🤖 Improve AI fraud detection algorithms
+- 🌍 Expand to more languages and regions
+- 📱 Develop mobile apps for field use
+- 🔬 Enhance supply chain transparency features
+
 ---
 
 ## 📑 Table of Contents
@@ -182,7 +183,7 @@ KRISHIBAROSA
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│                        GRAINTRUST ARCHITECTURE                   │
+│                      KRISHIBAROSA ARCHITECTURE                   │
 └─────────────────────────────────────────────────────────────────┘
 
 ┌──────────────────────┐
@@ -501,7 +502,7 @@ Expected output:
 ssh user@172.29.54.144
 
 # Navigate to project
-cd /path/to/graintrust-2.0
+cd /path/to/krishibarosa
 
 # Start bridge
 node bridges/blockchain-bridge.js
@@ -1140,7 +1141,7 @@ npm run db:seed
 
 # Demo credentials:
 # Farmer: farmer@demo.com / farmer123
-# Admin: admin@graintrust.com / admin123
+# Admin: admin@krishibarosa.com / admin123
 # Consumer: consumer@demo.com / consumer123
 ```
 
@@ -1212,7 +1213,7 @@ curl http://localhost:3005/api/health
 npm install -g pm2
 
 # Start bridge with PM2
-pm2 start bridges/frontend-bridge.js --name "graintrust-frontend-bridge"
+pm2 start bridges/frontend-bridge.js --name "krishibarosa-frontend-bridge"
 pm2 save
 pm2 startup
 ```
@@ -1220,7 +1221,7 @@ pm2 startup
 **Blockchain Bridge**:
 ```bash
 # On Ubuntu server
-pm2 start bridges/blockchain-bridge.js --name "graintrust-blockchain-bridge"
+pm2 start bridges/blockchain-bridge.js --name "krishibarosa-blockchain-bridge"
 pm2 save
 pm2 startup
 ```
@@ -1313,7 +1314,7 @@ npm run update-ncdex
 ### Logs Location
 
 - **Next.js**: Console output
-- **Frontend Bridge**: Console or PM2 logs (`pm2 logs graintrust-frontend-bridge`)
+- **Frontend Bridge**: Console or PM2 logs (`pm2 logs krishibarosa-frontend-bridge`)
 - **Blockchain Bridge**: Console or PM2 logs
 - **Database**: Supabase dashboard → Logs
 
